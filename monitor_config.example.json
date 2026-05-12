@@ -1,0 +1,15 @@
+{
+  "validator_name": "MyValidator",
+  "tg_token": "REPLACE_WITH_TELEGRAM_BOT_TOKEN",
+  "tg_chat_id": "REPLACE_WITH_YOUR_CHAT_ID",
+  "metrics_url": "http://localhost:9091/metrics",
+  "rpc_url": "http://localhost:9545/rpc/v0_9",
+  "public_rpc_url": "https://starknet-mainnet.public.blastapi.io/rpc/v0_7",
+  "operational_address": "0xREPLACE_WITH_OPERATIONAL_ADDRESS",
+  "containers": ["pathfinder", "starknet-attestation"],
+  "balance_warn_strk": 100,
+  "balance_crit_strk": 50,
+  "balance_emerg_strk": 20,
+  "block_lag_threshold": 50,
+  "stuck_seconds": 600
+}

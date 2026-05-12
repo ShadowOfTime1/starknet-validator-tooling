@@ -1,0 +1,17 @@
+# Secrets and runtime state — never commit
+*.key
+monitor_config.json
+*.log
+*_state.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
