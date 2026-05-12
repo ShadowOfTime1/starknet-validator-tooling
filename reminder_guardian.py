@@ -10,7 +10,7 @@ import urllib.request
 
 CONFIG_PATH = "/home/solana/.starknet/monitor_config.json"
 REWARD = "0x07e6980efc0ed4381f23c3cb54a0cc14b030b1e38f6b01ad736f74c61f36fddd"
-RPC = "http://localhost:9545/rpc/v0_9"
+RPC = "http://localhost:9545/rpc/v0_10"
 SELF_PATH = os.path.realpath(__file__)
 
 

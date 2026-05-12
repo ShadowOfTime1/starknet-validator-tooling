@@ -64,5 +64,5 @@ Suggested crontab:
 
 ## Notes
 
-- Tested against Pathfinder serving RPC `v0_9` on `:9545`. `starknet_py` emits an `IncompatibleRPCVersionWarning` (it expects `v0.10.2`) but `call_contract`, `estimate_fee`, `send_transaction`, and receipts all work.
+- Tested against Pathfinder serving RPC `v0_10` (spec `0.10.2`) on `:9545`. `starknet_py` 0.30 talks to it without compatibility warnings.
 - `autotopup.py` assumes Argent v0.4 with `guardian = 0`. If the reward wallet still has a guardian, the script will sign but the on-chain validation will reject.

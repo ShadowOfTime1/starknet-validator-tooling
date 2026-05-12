@@ -35,7 +35,7 @@ STRK = "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d"
 KEY_PATH = "/home/solana/.starknet/topup.key"
 CONFIG_PATH = "/home/solana/.starknet/monitor_config.json"
 STATE_PATH = "/home/solana/.starknet/autotopup_state.json"
-RPC_URL = "http://localhost:9545/rpc/v0_9"
+RPC_URL = "http://localhost:9545/rpc/v0_10"
 
 DECIMALS = 18
 WEI = 10 ** DECIMALS
